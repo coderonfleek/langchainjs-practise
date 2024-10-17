@@ -12,6 +12,7 @@
   "dependencies": {
     "@langchain/core": "^0.3.11",
     "@langchain/google-genai": "^0.1.0",
+    "@langchain/ollama": "^0.1.0",
     "dotenv": "^16.4.5",
     "langchain": "^0.3.2"
   },
