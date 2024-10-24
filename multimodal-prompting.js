@@ -20,6 +20,8 @@ async function run() {
         }]]
     ])
 
+    //console.log(await prompt.invoke({base64 : base64Image}))
+
     const chain = prompt.pipe(model);
 
     const response = await chain.invoke({
