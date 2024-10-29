@@ -18,7 +18,7 @@ async function run() {
 
     const response = await llm.invoke(messages); */
 
-    //With message templates
+    //With message templates instead of text-only
     const promptTemplate = ChatPromptTemplate.fromMessages([
         ["system", "You're a {skill} expert"],
         ["user", "{question}"]
